@@ -1418,6 +1418,62 @@ a:hover {
   color: white
 }
 
+.fr_elaboracao {
+  float: none;
+  display: block;
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 4rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: white
+}
+
+.fr_elaboracao.fr-text h1 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text p {
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h3 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h5 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h2 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h4 {
+  font-family: museo-sans-rounded;
+  font-size: 20px;
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h6 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text blockquote {
+  font-family: Roboto;
+  text-align: center;
+  color: white
+}
+
 .fr_header_solid_background_and_left_text {
   float: none;
   display: block;
@@ -1971,8 +2027,7 @@ a:hover {
   width: 100%;
   margin-top: 2rem;
   margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px
+  margin-left: auto
 }
 
 .fr_gry1_3_column_images_14.fr-grid>.fr-widget {
@@ -1995,9 +2050,12 @@ a:hover {
 }
 
 .fr_svg_28 {
+  float: none;
   display: block;
   width: 80px;
-  margin-bottom: 10px
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto
 }
 
 .fr_text_center_large_8 {
@@ -3539,7 +3597,7 @@ a:hover {
 
 .fr_text_center_large_18 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -3576,7 +3634,7 @@ a:hover {
 
 .fr_text_center_large_19 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -6502,6 +6560,19 @@ a:hover {
   .fr_empresa2.fr-text h4 {
     text-align: left
   }
+  .fr_elaboracao {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto
+  }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -6607,6 +6678,10 @@ a:hover {
   }
   .fr_gry1_image_one_36 {
     padding-bottom: 15px
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry1_3_column_images_15.fr-grid>.fr-widget {
     float: left
@@ -7115,11 +7190,21 @@ a:hover {
   .fr_sobre1.fr-text h1 {
     font-size: 2.5rem
   }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     min-height: 450px
   }
   .fr_text_10.fr-text h1 {
     font-size: 2.5rem
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry2_column_images_3.fr-grid>.fr-widget {
     float: left
@@ -8699,6 +8784,62 @@ a:hover {
   color: white
 }
 
+.fr_elaboracao {
+  float: none;
+  display: block;
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 4rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: white
+}
+
+.fr_elaboracao.fr-text h1 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text p {
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h3 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h5 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h2 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h4 {
+  font-family: museo-sans-rounded;
+  font-size: 20px;
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h6 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text blockquote {
+  font-family: Roboto;
+  text-align: center;
+  color: white
+}
+
 .fr_header_solid_background_and_left_text {
   float: none;
   display: block;
@@ -9252,8 +9393,7 @@ a:hover {
   width: 100%;
   margin-top: 2rem;
   margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px
+  margin-left: auto
 }
 
 .fr_gry1_3_column_images_14.fr-grid>.fr-widget {
@@ -9276,9 +9416,12 @@ a:hover {
 }
 
 .fr_svg_28 {
+  float: none;
   display: block;
   width: 80px;
-  margin-bottom: 10px
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto
 }
 
 .fr_text_center_large_8 {
@@ -10820,7 +10963,7 @@ a:hover {
 
 .fr_text_center_large_18 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -10857,7 +11000,7 @@ a:hover {
 
 .fr_text_center_large_19 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -13783,6 +13926,19 @@ a:hover {
   .fr_empresa2.fr-text h4 {
     text-align: left
   }
+  .fr_elaboracao {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto
+  }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -13888,6 +14044,10 @@ a:hover {
   }
   .fr_gry1_image_one_36 {
     padding-bottom: 15px
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry1_3_column_images_15.fr-grid>.fr-widget {
     float: left
@@ -14396,11 +14556,21 @@ a:hover {
   .fr_sobre1.fr-text h1 {
     font-size: 2.5rem
   }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     min-height: 450px
   }
   .fr_text_10.fr-text h1 {
     font-size: 2.5rem
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry2_column_images_3.fr-grid>.fr-widget {
     float: left
@@ -15968,6 +16138,62 @@ a:hover {
   color: white
 }
 
+.fr_elaboracao {
+  float: none;
+  display: block;
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 4rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: white
+}
+
+.fr_elaboracao.fr-text h1 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text p {
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h3 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h5 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h2 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h4 {
+  font-family: museo-sans-rounded;
+  font-size: 20px;
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h6 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text blockquote {
+  font-family: Roboto;
+  text-align: center;
+  color: white
+}
+
 .fr_header_solid_background_and_left_text {
   float: none;
   display: block;
@@ -16521,8 +16747,7 @@ a:hover {
   width: 100%;
   margin-top: 2rem;
   margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px
+  margin-left: auto
 }
 
 .fr_gry1_3_column_images_14.fr-grid>.fr-widget {
@@ -16545,9 +16770,12 @@ a:hover {
 }
 
 .fr_svg_28 {
+  float: none;
   display: block;
   width: 80px;
-  margin-bottom: 10px
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto
 }
 
 .fr_text_center_large_8 {
@@ -18089,7 +18317,7 @@ a:hover {
 
 .fr_text_center_large_18 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -18126,7 +18354,7 @@ a:hover {
 
 .fr_text_center_large_19 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -21052,6 +21280,19 @@ a:hover {
   .fr_empresa2.fr-text h4 {
     text-align: left
   }
+  .fr_elaboracao {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto
+  }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -21157,6 +21398,10 @@ a:hover {
   }
   .fr_gry1_image_one_36 {
     padding-bottom: 15px
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry1_3_column_images_15.fr-grid>.fr-widget {
     float: left
@@ -21665,11 +21910,21 @@ a:hover {
   .fr_sobre1.fr-text h1 {
     font-size: 2.5rem
   }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     min-height: 450px
   }
   .fr_text_10.fr-text h1 {
     font-size: 2.5rem
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry2_column_images_3.fr-grid>.fr-widget {
     float: left
@@ -23273,6 +23528,62 @@ a:hover {
   color: white
 }
 
+.fr_elaboracao {
+  float: none;
+  display: block;
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 4rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: white
+}
+
+.fr_elaboracao.fr-text h1 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text p {
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h3 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h5 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h2 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h4 {
+  font-family: museo-sans-rounded;
+  font-size: 20px;
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h6 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text blockquote {
+  font-family: Roboto;
+  text-align: center;
+  color: white
+}
+
 .fr_header_solid_background_and_left_text {
   float: none;
   display: block;
@@ -23826,8 +24137,7 @@ a:hover {
   width: 100%;
   margin-top: 2rem;
   margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px
+  margin-left: auto
 }
 
 .fr_gry1_3_column_images_14.fr-grid>.fr-widget {
@@ -23850,9 +24160,12 @@ a:hover {
 }
 
 .fr_svg_28 {
+  float: none;
   display: block;
   width: 80px;
-  margin-bottom: 10px
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto
 }
 
 .fr_text_center_large_8 {
@@ -25394,7 +25707,7 @@ a:hover {
 
 .fr_text_center_large_18 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -25431,7 +25744,7 @@ a:hover {
 
 .fr_text_center_large_19 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -28357,6 +28670,19 @@ a:hover {
   .fr_empresa2.fr-text h4 {
     text-align: left
   }
+  .fr_elaboracao {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto
+  }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -28462,6 +28788,10 @@ a:hover {
   }
   .fr_gry1_image_one_36 {
     padding-bottom: 15px
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry1_3_column_images_15.fr-grid>.fr-widget {
     float: left
@@ -28970,11 +29300,21 @@ a:hover {
   .fr_sobre1.fr-text h1 {
     font-size: 2.5rem
   }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     min-height: 450px
   }
   .fr_text_10.fr-text h1 {
     font-size: 2.5rem
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry2_column_images_3.fr-grid>.fr-widget {
     float: left
@@ -30518,6 +30858,62 @@ a:hover {
   color: white
 }
 
+.fr_elaboracao {
+  float: none;
+  display: block;
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 4rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: white
+}
+
+.fr_elaboracao.fr-text h1 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text p {
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h3 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h5 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h2 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h4 {
+  font-family: museo-sans-rounded;
+  font-size: 20px;
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h6 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text blockquote {
+  font-family: Roboto;
+  text-align: center;
+  color: white
+}
+
 .fr_header_solid_background_and_left_text {
   float: none;
   display: block;
@@ -31071,8 +31467,7 @@ a:hover {
   width: 100%;
   margin-top: 2rem;
   margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px
+  margin-left: auto
 }
 
 .fr_gry1_3_column_images_14.fr-grid>.fr-widget {
@@ -31095,9 +31490,12 @@ a:hover {
 }
 
 .fr_svg_28 {
+  float: none;
   display: block;
   width: 80px;
-  margin-bottom: 10px
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto
 }
 
 .fr_text_center_large_8 {
@@ -32639,7 +33037,7 @@ a:hover {
 
 .fr_text_center_large_18 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -32676,7 +33074,7 @@ a:hover {
 
 .fr_text_center_large_19 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -35602,6 +36000,19 @@ a:hover {
   .fr_empresa2.fr-text h4 {
     text-align: left
   }
+  .fr_elaboracao {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto
+  }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -35707,6 +36118,10 @@ a:hover {
   }
   .fr_gry1_image_one_36 {
     padding-bottom: 15px
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry1_3_column_images_15.fr-grid>.fr-widget {
     float: left
@@ -36215,11 +36630,21 @@ a:hover {
   .fr_sobre1.fr-text h1 {
     font-size: 2.5rem
   }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     min-height: 450px
   }
   .fr_text_10.fr-text h1 {
     font-size: 2.5rem
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry2_column_images_3.fr-grid>.fr-widget {
     float: left
@@ -37775,6 +38200,62 @@ a:hover {
   color: white
 }
 
+.fr_elaboracao {
+  float: none;
+  display: block;
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 4rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: white
+}
+
+.fr_elaboracao.fr-text h1 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text p {
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h3 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h5 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h2 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text h4 {
+  font-family: museo-sans-rounded;
+  font-size: 20px;
+  text-align: center;
+  color: black
+}
+
+.fr_elaboracao.fr-text h6 {
+  text-align: center;
+  color: white
+}
+
+.fr_elaboracao.fr-text blockquote {
+  font-family: Roboto;
+  text-align: center;
+  color: white
+}
+
 .fr_header_solid_background_and_left_text {
   float: none;
   display: block;
@@ -38328,8 +38809,7 @@ a:hover {
   width: 100%;
   margin-top: 2rem;
   margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px
+  margin-left: auto
 }
 
 .fr_gry1_3_column_images_14.fr-grid>.fr-widget {
@@ -38352,9 +38832,12 @@ a:hover {
 }
 
 .fr_svg_28 {
+  float: none;
   display: block;
   width: 80px;
-  margin-bottom: 10px
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto
 }
 
 .fr_text_center_large_8 {
@@ -39896,7 +40379,7 @@ a:hover {
 
 .fr_text_center_large_18 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -39933,7 +40416,7 @@ a:hover {
 
 .fr_text_center_large_19 {
   float: none;
-  display: block;
+  display: none;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
@@ -42859,6 +43342,19 @@ a:hover {
   .fr_empresa2.fr-text h4 {
     text-align: left
   }
+  .fr_elaboracao {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto
+  }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -42964,6 +43460,10 @@ a:hover {
   }
   .fr_gry1_image_one_36 {
     padding-bottom: 15px
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry1_3_column_images_15.fr-grid>.fr-widget {
     float: left
@@ -43472,11 +43972,21 @@ a:hover {
   .fr_sobre1.fr-text h1 {
     font-size: 2.5rem
   }
+  .fr_elaboracao.fr-text p {
+    text-align: left
+  }
+  .fr_elaboracao.fr-text h4 {
+    text-align: left
+  }
   .fr_header_solid_background_and_left_text {
     min-height: 450px
   }
   .fr_text_10.fr-text h1 {
     font-size: 2.5rem
+  }
+  .fr_svg_28 {
+    display: block;
+    margin-left: 0
   }
   .fr_gry2_column_images_3.fr-grid>.fr-widget {
     float: left
